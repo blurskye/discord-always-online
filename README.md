@@ -6,16 +6,19 @@ A python script that keeps your account online
 - [Discord](https://discord.com/) account. 
 
 ## Installation 🐍
-> git clone this repo and change directory to this repo by running 
+### git clone this repo and change directory to this repo by running 
+
 ```sh
 git clone https://github.com/blurskye/discord-always-online.git
 cd discord-always-online.git
 ```
-> install all dependencies by running this
+
+### install all dependencies by running this
 ```sh
 python -m venv .venv
 ./.venv/bin/pip install -r requirement.txt
 ```
+
 ##keep in mind this install dependencies in a virtual python environment
 
 # Edit config.py to add your config
@@ -62,5 +65,5 @@ ________________________________________________________________________________
 If you did all the steps correctly, you should see the following message on the console.
 
 ````
-staying alive for {username}{discriminator} , user_id = {userid}
+staying alive for {username}{discriminator} , user_id = {userid}Logged in as <you user name>
 ````
