@@ -20,9 +20,11 @@ python -m venv .venv
 ```
 
 ### keep in mind this install dependencies in a virtual python environment
-
 # Edit config.py to add your config
+
+---
 # to get discord token, login into your discord account from browser, press f12, goto console and run this
+
 ```js
 window.webpackChunkdiscord_app.push([
   [Math.random()],
