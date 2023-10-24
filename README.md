@@ -1,16 +1,25 @@
-# Discord Online Forever 🦄😏
-A code written in Python that helps you to keep your account 24/7 online.
+# stay online forever
+A python script that keeps your account online
 
-## Requirements 🧰
+## Requirements 
 - [Python 3+](https://www.python.org/)
 - [Discord](https://discord.com/) account. 
 
 ## Installation 🐍
 
+
+> git clone this repo and change directory to this repo by running 
 ```
-> download a copy of this repo
-> navigate to the extracted folder
+git clone https://github.com/blurskye/discord-always-online.git
+cd discord-always-online.git
 ```
+> install all dependencies by running this
+```
+python -m venv .venv
+./.venv/bin/pip install -r requirement.txt
+./venv/bin/python online.py
+```
+
 
 Install all the necessary Python packages to run this programme using the requirements.txt (`sudo` as neccessary):
 
