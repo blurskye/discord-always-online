@@ -19,7 +19,7 @@ python -m venv .venv
 ./.venv/bin/pip install -r requirement.txt
 ```
 
-## keep in mind this install dependencies in a virtual python environment
+### keep in mind this install dependencies in a virtual python environment
 
 # Edit config.py to add your config
 # to get discord token, login into your discord account from browser, press f12, goto console and run this
@@ -43,7 +43,7 @@ window.webpackChunkdiscord_app.push([
 console.log('%cWorked!', 'font-size: 50px');
 console.log(`%cYou now have your token in the clipboard!`, 'font-size: 16px');
 ```
-##it will copy discord token to your clipboard, you need to paste that in token variable in config.py
+## it will copy discord token to your clipboard, you need to paste that in token variable in config.py
 
 _____________________________________________________________________________________________
 # ⚠️⚠️⚠️
