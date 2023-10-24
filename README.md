@@ -19,7 +19,7 @@ python -m venv .venv
 ./.venv/bin/pip install -r requirement.txt
 ```
 
-##keep in mind this install dependencies in a virtual python environment
+## keep in mind this install dependencies in a virtual python environment
 
 # Edit config.py to add your config
 # to get discord token, login into your discord account from browser, press f12, goto console and run this
@@ -47,7 +47,7 @@ console.log(`%cYou now have your token in the clipboard!`, 'font-size: 16px');
 
 _____________________________________________________________________________________________
 # ⚠️⚠️⚠️
-### DO NOT GIVE YOUR TOKEN TO OTHERS !!!
+### ⚠️⚠️⚠️ DO NOT GIVE YOUR TOKEN TO OTHERS !!! ⚠️⚠️⚠️
 #### _Giving your token to someone else will give them the ability to log into your account without the password or 2FA._
 > ❗ **Warning**
 > : Self-bots are discouraged by Discord and is against Discord's ToS. You might get banned for this if not used properly.
