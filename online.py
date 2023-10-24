@@ -51,12 +51,11 @@ cstatus = {
 online = {"op": 1, "d": "None"}
 
 
-def keep_online(token, status):
+def keep_online():
     ws = websocket.WebSocket()
     ws.connect("wss://gateway.discord.gg/?v=9&encoding=json")
     start = json.loads(ws.recv())
     heartbeat = start["d"]["heartbeat_interval"]
-
     ws.send(json.dumps(auth))
     ws.send(json.dumps(cstatus))
     time.sleep(heartbeat / 1000)
