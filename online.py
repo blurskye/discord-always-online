@@ -78,7 +78,7 @@ def keep_online():
 
 
 def run_keep_online():
-    globals
+    global config_hash
     print(f"staying alive for {username}{discriminator} , user_id = {userid}.")
     while True:
         config_data = load_config_file("./config.json")
@@ -93,7 +93,7 @@ def run_keep_online():
             ]
             cstatus["d"]["status"] = config_data["status"]
             print("Config file updated")
-        keep_online(token, status)
+        keep_online()
         time.sleep(30)
 
 
