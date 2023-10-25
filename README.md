@@ -62,7 +62,7 @@ ________________________________________________________________________________
 _____________________________________________________________________________________________
 ## Usage 🍕
 ```
-./.venv/bin/python online.py
+./.venv/bin/python main.py
 ```
 If you did all the steps correctly, you should see the following message on the console.
 
