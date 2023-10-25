@@ -21,7 +21,7 @@ config_hash = hash_json(config_data)
 
 userinfo = requests.get(
     "https://discordapp.com/api/v9/users/@me",
-    {"Authorization": config_data["token"], "Content-Type": "application/json"},
+    headers={"Authorization": config_data["token"], "Content-Type": "application/json"},
 ).json()
 
 
@@ -78,6 +78,7 @@ def keep_online():
 
 
 def run_keep_online():
+    globals
     print(f"staying alive for {username}{discriminator} , user_id = {userid}.")
     while True:
         config_data = load_config_file("./config.json")
