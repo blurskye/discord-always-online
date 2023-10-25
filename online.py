@@ -1,4 +1,3 @@
-from config import *
 import json
 import time
 import websocket
