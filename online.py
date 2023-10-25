@@ -79,7 +79,7 @@ def keep_online():
 
 def run_keep_online():
     global config_hash
-    print(f"staying alive for {username}{discriminator} , user_id = {userid}.")
+    print(f"staying alive for {username}#{discriminator} , user_id = {userid}.")
     while True:
         config_data = load_config_file("./config.json")
         if hash_json(config_data) != config_hash:
